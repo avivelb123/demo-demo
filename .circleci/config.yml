@@ -31,3 +31,6 @@ workflows:
     jobs:
       - say_hello
       - say_goodbye
+  can_i_run:
+    jobs:
+      - build
